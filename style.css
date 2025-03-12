@@ -73,3 +73,9 @@ hr{
 body {
     font-family: 'Koulen', sans-serif;
 }
+.icons .icon a i{
+    transition: transform 0.3s ease-in-out;
+}
+.icons .icon a i:hover{
+    transform: scale(1.2);
+}

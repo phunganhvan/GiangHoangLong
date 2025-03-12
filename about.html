@@ -12,23 +12,78 @@
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Koulen&display=swap" rel="stylesheet">
+
 </head>
 <body>
-    <div class="header">
-        <nav>
-            <div class="GName">
-                GIANG HOÀNG LONG <sub>GAME DEVELOPER</sub>
-            </div>
-        </nav>
-        <ul class="list">
-            <li class="new"><a href="#">ABOUT</a></li>
-            <li class="new"><a href="./portfolio.html">PORTFOLIO</a></li>
-            <li class="new"><a href="./cv.html">CV</a></li>
-        </ul>
-
+    <style>
+        .container {
+            display: flex;
+            background-color: #222;
+            padding: 20px;
+            border-radius: 10px;
+            max-width: 800px;
+        }
+        .avatar {
+            width: 300px;
+            height: 380px;
+            border-radius: 10px;
+            border: 3px solid white;
+            object-fit: cover;
+        }
+        .info {
+            margin-left: 20px;
+        }
+        .title {
+            font-size: 14px;
+            font-weight: bold;
+            text-transform: uppercase;
+            display: inline-block;
+            margin-bottom: 10px;
+        }
+        .name {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .description {
+            font-size: 14px;
+            line-height: 1.5;
+            font-weight: 100;
+        }                
+    </style>
+    <div class="boxHead">
+        <div class="header">
+            <nav>
+                <div class="GName">
+                    GIANG HOANG LONG <sub>GAME DEVELOPER</sub>
+                </div>
+            </nav>
+            <ul class="list">
+                <li class="new"><a href="#">ABOUT</a></li>
+                <li class="new"><a href="./portfolio.html">PORTFOLIO</a></li>
+                <li class="new"><a href="./cv.html">CV</a></li>
+            </ul>
+            
+        </div>
     </div>
-    <div class="main">
-        main
+    <div class="container">
+        <img src="./image/GDRAGON.jfif" alt="Avatar" class="avatar">
+        <div class="info">
+            <hr style="width: 240px; height: 3px;">
+            <div class="title" style="font-size: 24px;">Game Developer</div>
+            <hr style="width: 240px; height: 3px; margin-top: 10px;">
+            <div class="name">Hello, My Name is Long.</div>
+            <div class="description">
+                I am a third-year student majoring in Multimedia Technology at the Posts and Telecommunications Institute of Technology (PTIT).<br>
+                My hobbies include programming, gaming, and watching movies.
+            </div>
+        </div>
+    </div>
+    <hr style="height: 1px !important; margin-top: 40px">
+    <div class="icons" style="background-color: var(--color-body); display: flex; margin-top: -20px; margin-bottom: 0px;">
+        <div class="icon" style="width: 50px; heigth: 80px; margin: 16px; margin-left: 520px; padding: 10px; background-color: white; border-radius: 12px;"><a href="https://github.com/Rei-1407"><i class="fa-brands fa-github" style="z-index: 100000; color: black; font-size: 30px; margin-left:2px;"></i></a></div>
+        <div class="icon" style="width: 50px; heigth: 80px;margin: 16px; margin-left: 25px; padding: 10px; background-color: white; border-radius: 12px;"><a href="https://www.facebook.com/rei.game.developer"><i class="fa-brands fa-square-facebook" style="z-index: 100000; color: black; font-size: 30px; margin-left:2px;"></i></a></div>
+        <div class="icon" style="width: 50px; heigth: 80px; margin: 16px;margin-left: 25px; padding: 10px; background-color: white; border-radius: 12px;"><a href="https://www.linkedin.com/in/giang-ho%C3%A0ng-long-878614327/"><i class="fa-brands fa-linkedin" style="z-index: 100000; color: black; font-size: 30px; margin-left:2px;"></i></a></div>
     </div>
 </body>
 </html>
