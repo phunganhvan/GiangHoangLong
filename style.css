@@ -1,0 +1,75 @@
+.header{
+    background-color: var(--color-head);
+}
+.main{
+    background-color: var(--color-body);
+}
+body{
+    color: white;
+    background-color: var(--color-body);
+    font-family: Arial, sans-serif;
+}
+.boxHead{
+    height: 60px;
+}
+.header{
+    display: flex;
+    align-content: flex-start;
+    height: 60px;
+}
+.GName{
+    margin-top: 10px;
+    margin-left: 60px;
+    font-size: 24px;
+    font-weight: bold;
+}
+sub{
+    font-weight: 100;
+}
+.list{
+    display: flex;
+    list-style-type: none;
+    align-content: flex-start;
+    margin-left: 240px;
+}
+li{
+    margin-top: 30px;
+}
+.new{
+    margin-left: 140px;
+    margin-top: 16px;
+}
+.header .new a{
+    transition: transform 0.3s ease-in-out;
+    font-size: 24px;
+    display: inline-block;
+}
+.header .new a:hover{
+    text-decoration: none;
+    transform: scale(1.4);
+}
+.main{
+    margin-bottom: 50px;
+}
+.info li{
+    margin: 6px;
+}
+.info p{
+    font-size: 16px;
+    font-weight: 200;
+    margin: 16px;
+}
+h2{
+    text-align: center;
+}
+hr{
+    font-size: 100px;
+    font-weight: bold;
+    border-radius: 10px;
+    height: 5px;
+    background-color: white; /* Màu sắc */
+    border: none;
+}
+body {
+    font-family: 'Koulen', sans-serif;
+}
