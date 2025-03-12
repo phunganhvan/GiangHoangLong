@@ -149,10 +149,57 @@
             <li class="tag">Supported Platform: Windows</li>
         </ul>
     </div>
+
+    <div class="main" style="margin-top: 80px;">
+        <div class="container">
+            <div class="Image">
+                <div class="large-image">
+                    <img id="anhLon1" src="./image/1.jfif" alt="Main Image">
+                </div>
+                <div class="anhNho">
+                    <img src="./image/1.jfif" alt="Thumbnail 1" onclick="changeImages('./image/1.jfif')">
+                    <img src="./image/2.jfif" alt="Thumbnail 2" onclick="changeImages('./image/2.jfif')">
+                    <img src="./image/3.jfif" alt="Thumbnail 3" onclick="changeImages('./image/3.jfif')">
+                    <img src="./image/4.jfif" alt="Thumbnail 4" onclick="changeImages('./image/4.jfif')">
+                </div>
+            </div>
+            <div class="info">
+                <hr>
+                <h2>LITTLE CAT'S JOURNEY</h2>
+                <hr style="margin-bottom: 30px;">
+                <p><strong style=" font-size: 24px">Story:</strong> <br> “Little Cat’s Journey” is a relaxing adventure game that tells the story of a small cat overcoming challenges from hell to heaven.</p>
+                <p><strong style="font-size: 24px">Task:</strong></p>
+                <ul>
+                    <li>Game Producer</li>
+                    <li>Game Developer</li>
+                </ul>
+                <p><strong  style="font-size: 24px">Development Duration:</strong><br>3 MONTHS</p>
+                <p><strong  style="font-size: 24px">Platform:</strong><br> Windows</p>
+                <button class="play-button" style="padding: 10px 20px; background: white; color: black; border: none; border-radius: 5px; cursor: pointer; margin-top: 15px"><a href="">PLAY</a></button>
+            </div>
+        </div>
+    </div>
+    <div class="tags">
+        <ul>
+            <li class="tag">3D Game</li>
+            <li class="tag">Platformer</li>
+            <li class="tag">Single Player</li>
+            <li class="tag">Offline</li>
+        </ul>
+        <ul>
+            <li class="tag">Made with UNREAL ENGINE 5</li>
+            <li class="tag">Supported Platform: Windows</li>
+        </ul>
+    </div>
     <!-- thay đổi src ảnh -->
     <script>
         function changeImage(imageSrc) {
             document.getElementById('anhLon').src = imageSrc;
+        }
+    </script>
+    <script>
+        function changeImages(imageSrc) {
+            document.getElementById('anhLon1').src = imageSrc;
         }
     </script>
 </body>
